@@ -13,15 +13,15 @@
 ### Preview
 **Phone Portrait Preview:**
 
-<img src="./preview/1.png" alt= "" width="280" height="500" title="Light" />
+<img src="./preview/1.png" alt= "" width="500" height="280" title="Light" />
 
-<img src="./preview/2.png" alt= "" width="280" height="500" title="Light" />
+<img src="./preview/2.png" alt= "" width="500" height="280" title="Light" />
 
-<img src="./preview/3.png" alt= "" width="280" height="500" title="Light" />
+<img src="./preview/3.png" alt= "" width="500" height="280" title="Light" />
 
-<img src="./preview/4.png" alt= "" width="280" height="500" title="Light" />
+<img src="./preview/4.png" alt= "" width="500" height="280" title="Light" />
 
-<img src="./preview/5.png" alt= "" width="280" height="500" title="Light" />
+<img src="./preview/5.png" alt= "" width="500" height="280" title="Light" />
 
 ### Cirilo Bido - Android Developer
 [![Twitter Follow](https://img.shields.io/twitter/follow/cirilobido?style=for-the-badge&logo=twitter&color=blue)](https://twitter.com/cirilobido)
