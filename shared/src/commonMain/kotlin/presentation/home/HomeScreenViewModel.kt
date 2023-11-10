@@ -25,8 +25,7 @@ data class HomeUiState(
     val data: List<PokemonModel> = emptyList(),
 )
 
-class HomeScreenViewModel(
-) : ViewModel() {
+class HomeScreenViewModel : ViewModel() {
 
     private val _uiState =
         MutableStateFlow(HomeUiState())
@@ -46,7 +45,7 @@ class HomeScreenViewModel(
 
     private var pokemonList: List<PokemonModel> = emptyList()
 
-    private val httpClient: HttpClient = HttpClient() {
+    private val httpClient: HttpClient = HttpClient {
         install(ContentNegotiation) {
             json(Json {
                 prettyPrint = true

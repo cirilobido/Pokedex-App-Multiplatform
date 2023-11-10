@@ -5,7 +5,7 @@ import data.remote.PokedexApi
 import domain.model.PokemonModel
 import domain.repository.PokemonsRepository
 
-class PokemonsRepositoryImpl() :
+class PokemonsRepositoryImpl :
     PokemonsRepository {
     override suspend fun getPokemons(): List<PokemonModel> {
         val api = PokedexApi()

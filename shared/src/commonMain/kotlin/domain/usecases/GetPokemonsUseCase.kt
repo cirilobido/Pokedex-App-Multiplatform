@@ -4,7 +4,6 @@ import data.repository.PokemonsRepositoryImpl
 import domain.model.PokemonModel
 import domain.model.Resource
 import domain.repository.PokemonsRepository
-import io.ktor.utils.io.errors.IOException
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 

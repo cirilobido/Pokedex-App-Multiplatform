@@ -1,7 +1,6 @@
 package domain.model
 
 import androidx.compose.ui.graphics.Color
-import com.example.dontgetbored.data.dto.PokemonDto
 import ui.theme.Resources
 import ui.theme.bug
 import ui.theme.dark
