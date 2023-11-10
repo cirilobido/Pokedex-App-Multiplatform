@@ -11,17 +11,16 @@
 **NOTE:** Follow the official documentation for more information!
 # [Official Documentation](https://github.com/JetBrains/compose-multiplatform) application
 ### Preview
-**Phone Portrait Preview:**
+**Multiplatform Preview:**
+![Preview 1](./preview/1.png)
 
-<img src="./preview/1.png" alt= "" width="500" height="280" title="Light" />
+![Preview 2](./preview/2.png)
 
-<img src="./preview/2.png" alt= "" width="500" height="280" title="Light" />
+![Preview 3](./preview/3.png)
 
-<img src="./preview/3.png" alt= "" width="500" height="280" title="Light" />
+![Preview 4](./preview/4.png)
 
-<img src="./preview/4.png" alt= "" width="500" height="280" title="Light" />
-
-<img src="./preview/5.png" alt= "" width="500" height="280" title="Light" />
+![Preview 4](./preview/5.png)
 
 ### Cirilo Bido - Android Developer
 [![Twitter Follow](https://img.shields.io/twitter/follow/cirilobido?style=for-the-badge&logo=twitter&color=blue)](https://twitter.com/cirilobido)
