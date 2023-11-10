@@ -9,7 +9,7 @@
 > **Design:** **[Design Inspiration](https://www.figma.com/file/ykQAHB8kQSaJPOgcaaSk02/Pok%C3%A9dex-%2F-Pok%C3%A9mon-App-(Community)?type=design&node-id=1268-35268&mode=design&t=qOK8IXuciQNLeCPu-0)**
 
 **NOTE:** Follow the official documentation for more information!
-# [Official Documentation](https://github.com/JetBrains/compose-multiplatform) application
+### [Official Documentation](https://github.com/JetBrains/compose-multiplatform) application
 ### Preview
 **Multiplatform Preview:**
 ![Preview 1](./preview/1.png)
