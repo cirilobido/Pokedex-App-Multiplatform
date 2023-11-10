@@ -1,0 +1,36 @@
+package ui.theme
+
+import androidx.compose.ui.graphics.Color
+
+val primary = Color(0xFFCD3131)
+val secondary = Color(0xFF173EA5)
+val tertiary = Color(0xFF4565B7)
+val background = Color(0xFFFFFFFF)
+val textPrimary = Color(0xFF000000)
+val textSecondary = Color(0xFF333333)
+val textTertiary = Color(0xFF666666)
+val textTertiary_20 = textTertiary.copy(alpha = 0.2f)
+val maleGender = Color(0xFF2551C3)
+val femaleGender = Color(0xFFFF7596)
+val colorWhite_40 = Color.White.copy(alpha = 0.4f)
+
+//Pokemon Types Colors
+val unknownType = Color(0xFF333333)
+val normal = Color(0xFF919AA2)
+val fire = Color(0xFFFF9D55)
+val water = Color(0xFF5090D6)
+val electric = Color(0xFFF4D23C)
+val grass = Color(0xFF63BC5A)
+val ice = Color(0xFF73CEC0)
+val fighting = Color(0xFFCE416B)
+val poison = Color(0xFFB567CE)
+val ground = Color(0xFFD97845)
+val flying = Color(0xFF89AAE3)
+val psychic = Color(0xFFFA7179)
+val bug = Color(0xFF91C12F)
+val rock = Color(0xFFC5B78C)
+val ghost = Color(0xFF5269AD)
+val dragon = Color(0xFF0B6DC3)
+val dark = Color(0xFF5A5465)
+val steel = Color(0xFF5A8EA2)
+val fairy = Color(0xFFEC8FE6)
