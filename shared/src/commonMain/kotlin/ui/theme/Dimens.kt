@@ -41,6 +41,10 @@ data class Dimens(
 
 val DefaultsDimens = Dimens()
 
+val DefaultsDimensIOS = Dimens(
+    pokemonItemContainerSize = 110.dp,
+)
+
 val TabletDimens = Dimens(
     bottomSheetExpanded = 0.5f,
     detailsCircleTranslate = -300f,
@@ -64,16 +68,11 @@ val TabletDimens = Dimens(
     spacerLarge = 56.dp,
 )
 
-
-val DefaultsDimensIOS = Dimens(
-    pokemonItemContainerSize = 110.dp,
-)
-
-val TabletDimensIOS = Dimens(
+val DesktopDimens = Dimens(
     bottomSheetExpanded = 0.5f,
     detailsCircleTranslate = -300f,
     detailsWeaknessesSize = 160.dp,
-    gridCells = 2,
+    gridCells = 3,
     iconSizeSmall = 24.dp,
     iconSizeNormal = 36.dp,
     iconSizeMedium = 48.dp,
