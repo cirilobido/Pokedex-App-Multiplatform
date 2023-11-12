@@ -12,12 +12,14 @@ import androidx.compose.runtime.ReadOnlyComposable
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.staticCompositionLocalOf
 import domain.model.PlatformsEnum.Android
+import domain.model.PlatformsEnum.iOS
 import getPlatformName
 
 /*
 Screen Sizes
 */
 private const val COMPACT_SCREEN_WIDTH = 600
+private const val MEDIUM_SCREEN_WIDTH = 839
 
 private val LocalDimens = staticCompositionLocalOf { DefaultsDimens }
 private val LocalTypography = staticCompositionLocalOf { Typography }
@@ -58,9 +60,8 @@ fun PokedexTheme(
     val colorScheme = if (darkTheme) DarkColorScheme else LightColorScheme
 
     BoxWithConstraints {
-
-        val dimensions = getDimens(currentWidth = constraints.maxWidth)
-
+        val currentWidth = constraints.maxWidth
+        val dimensions = getDimens(currentWidth)
         ProvideDimens(dimensions = dimensions) {
             MaterialTheme(
                 colors = colorScheme,
@@ -72,11 +73,22 @@ fun PokedexTheme(
 }
 
 private fun getDimens(currentWidth: Int): Dimens {
-    val isAndroid = getPlatformName() == Android.name
-    return if (currentWidth > COMPACT_SCREEN_WIDTH)
-        if (isAndroid) TabletDimens else TabletDimensIOS
-    else
-        if (isAndroid) DefaultsDimens else DefaultsDimensIOS
+    val isAndroidPlatform = getPlatformName() == Android.name
+    val isIosPlatform = getPlatformName() == iOS.name
+    val isTabletOrDesktopDevice = currentWidth in COMPACT_SCREEN_WIDTH..MEDIUM_SCREEN_WIDTH
+    if (isAndroidPlatform) {
+        return if (isTabletOrDesktopDevice)
+            TabletDimens
+        else
+            DefaultsDimens
+    }
+    if (isIosPlatform) {
+        return if (isTabletOrDesktopDevice)
+            TabletDimens
+        else
+            DefaultsDimensIOS
+    }
+    return DesktopDimens
 }
 
 object PokedexTheme {
